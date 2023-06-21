@@ -1,0 +1,26 @@
+body{
+    background-color:#F5EFE7;
+}
+img{
+    border-radius: 20px;
+    border: 2px solid rgba(16, 16, 15, 0.99);
+}
+h3{
+    border-radius: 20px;
+    background-color: #D7C0AE;
+    height: 30px;
+}
+h2{
+    border-radius: 60px;
+    background-color: #D8C4B6;
+  
+}
+.main{
+    background-color: #967E76;
+}
+.heading{
+    background-color: #967E76;
+    width: 50%;
+    border-radius: 60PX;
+    color: #EEEEEE;
+}
