@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Dosis:wght@300&family=EB+Garamond&family=Fasthand&family=PT+Serif:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Dosis:wght@200&family=EB+Garamond&family=Fasthand&family=PT+Serif&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+        * {
+            font-size: 22px;
+            font-weight: bold;
+            color: #575757;
+        }
+
+        #main,
+        .custom-nav {
+            background-color: #f5f1eb;
+        }
+
+        #R1 {
+            width: 98%;
+            height: 90px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+            /* background-color: gray; */
+            text-align: center;
+            padding-left: 2%;
+        }
+
+        #R1 img {
+            height: 45px;
+            width: 65px;
+        }
+
+        #R1 h5 {
+            font-family: 'Fasthand', cursive;
+            ;
+        }
+
+        #R2 {
+            width: 98%;
+            height: 85px;
+            padding-top: 7px;
+            margin-bottom: 10px;
+            /* background-color: gray; */
+            text-align: left;
+            padding-left: 2%;
+            text-align: center;
+        }
+
+        #R3 {
+            width: 98%;
+            height: 400px;
+            padding-top: 30px;
+            margin-bottom: 35px;
+            /* background-color: gray; */
+            text-align: left;
+            padding-left: 2%;
+            text-align: center;
+        }
+
+        #R3 p {
+            /* text-align: justify; */
+            font-size: 25px;
+            padding: 0px 200px;
+            font-family: 'Crimson Text', serif;
+        }
+
+        #R3 h3 {
+            margin-bottom: 17px;
+        }
+
+        #R4 {
+            width: 100%;
+            height: 500px;
+            /* margin-bottom: 10px; */
+        }
+
+        #R4C1 img,
+        #R4C2 img,
+        #R4C3 img {
+            height: 500px;
+            width: 404px;
+            margin-left: 5px;
+        }
+
+        #R4C1 {
+            width: 31.5%;
+            margin-right: 2%;
+        }
+
+        #R4C2 {
+            width: 31.5%;
+            margin-right: 2%;
+        }
+
+        #R4C3 {
+            width: 31.5%;
+        }
+
+        #R4 div {
+            float: left;
+            height: 500px;
+            /* padding-top: 180px; */
+            text-align: center;
+            /* background-color: gray; */
+        }
+
+        #R5 {
+            width: 98%;
+            height: 90px;
+            padding-top: 7px;
+            margin-top: 10px;
+            /* background-color: gray; */
+            text-align: left;
+            padding-left: 2%;
+            text-align: center;
+            font-family: 'Crimson Text', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="R1">
+            <img src="logo2-removebg-preview.png" alt="Memoria Production">
+            <h5>Memoria Production</h5>
+        </div>
+        <div id="R2">
+            <nav class="navbar navbar-expand-lg" style="background-color: #f5f1eb;">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Work
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Wedding</a></li>
+                                    <li><a class="dropdown-item" href="#">Pre-Wedding</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li> -->
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="R3">
+            <h3>About Us</h3>
+            <p>
+                We capture every event, especially weddings in our camera of hearts. We believe in capturing not only
+                people but even their emotions so that they feel nostalgia when they really see their own pictures after
+                years. We connect with people and consider their D-day our day. We've made every small wedding look more
+                luxury and royal. We are entitled to attend and capture countless weddings till now across the country.
+                We believe in making something distinct whether it's cinematography or photography.
+            </p>
+        </div>
+        <div id="R4">
+            <div id="R4C1">
+                <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/b568ecd3-28fb-40e7-ab18-1355533a3ef0/DSC_7323-2-2.jpg?"
+                    alt="">
+            </div>
+            <div id="R4C2">
+                <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1560078190489-57YR27IWNV0ZLCZU6TN9/ashnabrett.jpg?"
+                    alt="">
+            </div>
+            <div id="R4C3">
+                <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1560078414127-Q07FY2XD2PPEA3VR388F/03_NVP_PIYACYRUS_RECEPTION-4143-side.jpg?"
+                    alt="">
+            </div>
+        </div>
+        <div id="R5">
+            <h6>Email: parthkevadiya07@gmail.com</h6>
+            <i class="fa fa-instagram"></i> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                class="fa fa-linkedin"></i>
+        </div>
+</body>
+
+</html>
