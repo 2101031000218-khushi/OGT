@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="alert.php">
+        <input type="text" placeholder="Name" name="name" >
+        <hr>
+        <input type="number"  name="Age" placeholder="age">
+        <hr>
+        <button type="submit" name="submit" onclick="alert">Submit</button>
+    </form>
+    <script>
+        function alert(){
+            alert(
+                'data submitted'
+            )
+        }
+    </script>
+</body>
+</html>
